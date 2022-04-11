@@ -64,7 +64,7 @@ header{
     font-size: 20px;
     color: white;
 }
-#:hover{
+#idjda:hover{
     color: #f7a3de;
 }
 
@@ -96,7 +96,7 @@ header{
     border-radius: 37px;
     background: #804CB6;
     text-align: center;
-    box-shadow: 11px 10px 20px -3px #2b2929;
+    box-shadow: 6px 5px 3px 0px #2b2929;
 
 }
 
@@ -116,7 +116,7 @@ header{
     border-radius: 37px;
     background: #804CB6;
     margin-top: 39px;
-    box-shadow: 11px 10px 20px -3px #2b2929;
+    box-shadow: 6px 5px 3px 0px #2b2929;
 }
 #dap{
     width: 306px;
@@ -125,7 +125,7 @@ header{
     border-radius: 37px;
     background: #804CB6;
     margin-top: 39px;
-    box-shadow: 11px 10px 20px -3px #2b2929;
+    box-shadow: 6px 5px 3px 0px #2b2929;
 }
 
 .div_footer{
@@ -139,7 +139,7 @@ header{
     height: 62px;
     border-radius: 37px;
     background: #804CB6;
-    box-shadow: 11px 10px 20px -3px #2b2929;
+    box-shadow: 6px 5px 3px 0px #2b2929;
 }
 
 #footer:hover{

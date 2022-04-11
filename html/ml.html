@@ -5,29 +5,30 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
     <title>Machine Learning</title>
+    <link rel="stylesheet" href="/css/ml.css">
 </head>
 <body>
-    <header>
-        <header>
-            <h2>Machine Learning</h2>
-        </header>
+    <header >
+        <div class="headerml">
+            <h2 class="mlheader">Machine Learning</h2>
+        </div>
     </header>
     <main>
-        <div>
-            <a>Topic Classification</a>
-            <a>Sentiment Analyst</a>
+        <div class="main_div">
+            <h1 class="main_div_nav">Topic Classification</h1>
+            <h1 class="main_div_nav">Sentiment Analyst</h1>
         </div>
-        <div>
-            <input type="text" id="inputtc" placeholder="Example Text">
-            <input type="text" id="inputsa" placeholder="Example Text">
+        <div class="main_div_text">
+            <input class="main_div_text_input" type="text" id="inputtc" placeholder="Example Text">
+            <input  class="main_div_text_input" type="text" id="inputsa" placeholder="Example Text">
         </div>
-        <div>
-            <button id="submittc">Submit</button>
-            <button id="submitsa">Submit</button>
+        <div class="main_div_btn">
+            <button class="submitbtn" id="submittc">Predict</button>
+            <button class="submitbtn" id="submitsa">Predict</button>
         </div>
-        <div>
-            <output id="outputtc">Output</output>
-            <output id="outputsa">Output</output>
+        <div class="main_div_result">
+            <output class="main_div_rslt_output" id="outputtc">Output</output>
+            <output class="main_div_rslt_output" id="outputsa">Output</output>
         </div>
     </main>
 </body>

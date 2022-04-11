@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Inline&family=Cabin&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url("../image/dap.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.tableau{
+    margin: auto;
+    margin-top: 20px;
+    max-width: 1000px;
+    max-height: 450px;
+    overflow: auto;
+
+}
+
+.footer{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
+}
+
+.footer2{
+    display: flex;
+    background-color: #804CB6;
+    width: 200px;
+    height: 40px;
+    font-size: 25px;
+    list-style: none;
+    align-items: center;
+    border-radius: 30px;
+    text-decoration: none;
+    justify-content: center;
+    margin-top: 5px;
+    font-family: 'Bungee Inline';
+    color: #F29DE6;
+    box-shadow: 6px 5px 3px 0px #2b2929;
+}
+
+.footer2:hover{
+    background-color: #2AE1DD;
+}
+
+#headerda{
+    background-color: #804CB6;
+    width: 259px;
+    height: 40px;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border-radius: 30px;
+    font-size: 30px;
+    overflow: hidden;
+    margin-top: 45px;
+    color: white;
+    text-decoration: none;
+    font-family: 'Bungee';
+    box-shadow: 6px 5px 3px 0px #2b2929;
+}
+
+#headerda:hover{
+    background-color: #2AE1DD;
+}

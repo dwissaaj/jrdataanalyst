@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Hairline&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@600&display=swap');
+
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url("../image/ml.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+
+}
+
+.headerml{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 50px;
+    margin-bottom: 60px;
+}
+
+.mlheader{
+    background-color: #804CB6;
+    width: 400px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    box-shadow: 6px 5px 3px 0px #2b2929;
+    font-family: 'Bungee';
+    font-size: 30px;
+    color: white;
+
+}
+
+.main_div{
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.main_div_nav{
+    background-color: #804CB6;
+    width: 400px;
+    height: 49px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    box-shadow: 6px 5px 3px 0px #2b2929;
+    font-family: 'Bungee Shade';
+    font-size: 25px;
+    color: #c298ff;
+
+}
+
+.main_div_text{
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+
+.main_div_text_input{
+    background-color: #B898E8;
+    color: black;
+    font-size: 15px;
+    font-family: 'Titillium Web';
+    width: 500px;
+    height: 50px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    box-shadow: 6px 5px 3px 0px #2b2929;
+}
+
+.main_div_btn{
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 35px;
+    margin-bottom: 60px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.submitbtn{
+    background-color: #D0C8C8;
+    font-size: 25px;
+    font-family: 'Bungee';
+    width: 200px;
+    height: 50px;
+    border-radius: 30px;
+    color: #28126C;
+    box-shadow: 6px 5px 3px 0px #2b2929;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main_div_result{
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 35px;
+    margin-bottom: 60px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.main_div_rslt_output{
+    background-color: #CECECE;
+    width: 150px;
+    height: 50px;
+    font-family: 'Titilium Web';
+    font-size: 20px;
+    border: 30px;
+    color: black;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    box-shadow: 7px -3px 8px 2px #2b2929;
+}
